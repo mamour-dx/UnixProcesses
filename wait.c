@@ -18,6 +18,7 @@ int main(int argc, char *argv[]) {
             printf("%d\n", i);
         }
     }
+    return 0;
 }
 
 // The goal is to make a program that will print from 1 to 5 from the child process and 6 through 10 from the parent process
