@@ -8,7 +8,7 @@ int main(int argc, char* argv[]) {
     int arr[] = {1, 2, 3, 4, 1, 2};
     int arrSize = sizeof(arr) / sizeof(int); // Very important to get array size in C!
     int start , end;
-    // The ultime goal of this program is to wrtie a program that will sum the numbers of this array by two different process. The first half of the array should be calculated by the array should be calculated by one array and the other half by another array.
+    // The ultimate goal of this program is to wrtie a program that will sum the numbers of this array by two different process. The first half of the array should be calculated by the array should be calculated by one array and the other half by another array.
     int fd[2];
     // fd[0] - read
     // fd[1] - write
